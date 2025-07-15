@@ -1,8 +1,8 @@
 .sub-top-bar {
-  background-color: #26208e; /* your preferred color */
+  background-color: #6B1010; /* your preferred color */
   color: white;
   text-align: left; /* <-- align text to the left */
-  padding: 10px 20px; /* add horizontal padding so it's not too close to edge */
+  padding: 5px 10px; /* add horizontal padding so it's not too close to edge */
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 2px;

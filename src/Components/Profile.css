@@ -29,14 +29,66 @@
 }
 
 .quick-links h4 {
-  color: #003366;
+   background-color: #26208E; /* or any color you like */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 0 10px 0;
+  border-radius: 4px; /* rounded corners, optional */
+  font-size: 16px;
 }
 
 
 .ict-services h4 {
-  color: #003366;
+  background-color: #26208E; /* or any color you like */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 0 10px 0;
+  border-radius: 4px; /* rounded corners, optional */
+  font-size: 16px;
 }
 
 .documents-repository h4 {
-    color: #003366;
+     background-color: #26208E; /* or any color you like */
+  color: white;
+  padding: 8px 12px;
+  margin: 0 0 10px 0;
+  border-radius: 4px; /* rounded corners, optional */
+  font-size: 16px;
+}
+
+.gvtlogo {
+  width: 25px; /* Adjust size */
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.bmhlogo {
+  width: 25px; /* Adjust size */
+  height: 25px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.clickable-item {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.clickable-item:hover {
+  color: #0056b3;
+}
+
+.nested-list {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.nested-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nested-list li a:hover {
+  color: #007bff;
 }

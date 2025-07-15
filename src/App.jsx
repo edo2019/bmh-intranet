@@ -13,24 +13,14 @@ function App() {
 
   return (
     <>
-      {/* <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
-      {/* <h1>BMH DASHBOARD</h1> */}
       <div className="App">
           <TopBar/>
           <SubTopBar/>
         <div className="main-content">
               <Profile />
-              <Profile />
-               <Profile />
-                <Profile />
-                 <Profile />
+              
+      <h1>BMH DASHBOARD</h1>
+            
         </div>
       </div>
       {/* <p className="read-the-docs">

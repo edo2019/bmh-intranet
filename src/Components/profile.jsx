@@ -1,5 +1,7 @@
 import React from 'react';
 import './Profile.css';
+import gvtlogo from '../assets/gvtlogo.png';
+import bmhlogo from '../assets/bmhlogo.png';
 
 
 const Profile = () => {
@@ -13,21 +15,73 @@ const Profile = () => {
       <div className="quick-links">
         <h4>QUICK LINKS</h4>
         <ul>
-          <li>HR Self Services</li>
-          <li>e-Request Management</li>
-          <li>e-Office</li>
-          <li>Gov-Mail</li>
-          <li>e-Mrejesho</li>
+            <li>  <a href="#" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              HR Self Services 
+            </a></li>
+          
+           <li>  <a href="https://mail.bmh.or.tz/" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              Government Mail
+            </a></li>
+           <li>  <a href="http://192.168.1.10:8888/MappingTagHIMS/#/auth/login" target="_blank" rel="noreferrer">
+              <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              MappingTagHims
+            </a></li>
+           <li>  <a href="#" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              eOffice
+            </a></li>
+           <li>  <a href="#" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              NeST
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              Muse
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              Medisynapse
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+              <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
+              eMirejesho
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              MediPro4
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+           <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              Vitambulisho
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              Mikataba
+            </a></li>
         </ul>
       </div>
 
       <div className="ict-services">
         <h4>ICT Services</h4>
         <ul>
-          <li>ICT Help Desk</li>
-          <li>Access Form</li>
-          <li>Change Request</li>
-          <li>FAQs</li>
+              <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              ICT Help Desk
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              Acces Form
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+           <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              Change Request
+            </a></li>
+             <li>  <a href="#" target="_blank" rel="noreferrer">
+             <img src={bmhlogo} alt="bmhlogo" className="bmhlogo" />
+              FAQ
+            </a></li>
         </ul>
       </div>
 
