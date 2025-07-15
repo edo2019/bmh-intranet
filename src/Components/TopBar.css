@@ -1,0 +1,30 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6b1010;
+  color: white;
+  padding: 10px;
+  width: 100%; /* ADD THIS to force full width */
+  box-sizing: border-box; /* prevents padding from making it overflow */
+}
+
+.topbar .left-logo img,
+.topbar .right-logo img {
+  height: 80px;
+}
+
+.topbar .title {
+  text-align: center;
+  flex: 1;
+}
+
+.topbar .title h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.topbar .title h3 {
+  margin: 0;
+  font-size: 16px;
+}
