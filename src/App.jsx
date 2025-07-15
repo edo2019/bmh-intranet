@@ -18,8 +18,7 @@ function App() {
           <SubTopBar/>
         <div className="main-content">
               <Profile />
-              
-      <h1>BMH DASHBOARD</h1>
+               
             
         </div>
       </div>
