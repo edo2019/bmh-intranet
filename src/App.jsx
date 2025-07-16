@@ -5,6 +5,7 @@ import TopBar from './Components/TopBar'
 import Profile from './Components/profile'
 import './App.css'
 import SubTopBar from './Components/SubTopBar'
+import ExecutiveProfile from './Components/ExecutiveProfile'
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <SubTopBar/>
         <div className="main-content">
               <Profile />
+              <ExecutiveProfile />
                
             
         </div>

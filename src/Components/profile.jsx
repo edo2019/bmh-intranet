@@ -25,7 +25,7 @@ const Profile = () => {
             </button>
             {/* Sub-links shown when expanded */}
             {isHRServicesOpen && (
-              <ul className="sub-links">
+              <ul className="">
                 <li>
                     <img src={gvtlogo} alt="gvtlogo" className="gvtlogo" />
                   <a href="https://example.com/hr/payslip" target="_blank" rel="noreferrer">Payslip Service</a>
